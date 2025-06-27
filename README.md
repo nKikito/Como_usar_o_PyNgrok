@@ -6,7 +6,7 @@
 - [Copiando o token](https://github.com/nKikito/Como_usar_o_PyNgrok?tab=readme-ov-file#copiando-o-token)
 - [Método 1: Usar o CMD (Prompt de comando)](https://github.com/nKikito/Como_usar_o_PyNgrok?tab=readme-ov-file#m%C3%A9todo-1-usar-o-cmd-prompt-de-comando)
 - [Método 2: Usar um arquivo python](https://github.com/nKikito/Como_usar_o_PyNgrok?tab=readme-ov-file#m%C3%A9todo-2-usar-um-arquivo-python)
-- [Observações](https://github.com/nKikito/Como_usar_o_PyNgrok/edit/main/README.md#observa%C3%A7%C3%B5es)
+- [Observações](https://github.com/nKikito/Como_usar_o_PyNgrok?tab=readme-ov-file#observações)
     1. [Django](https://github.com/nKikito/Como_usar_o_PyNgrok?tab=readme-ov-file#django)
     2. [XAMPP](https://github.com/nKikito/Como_usar_o_PyNgrok?tab=readme-ov-file#xampp)
     3. [Ver requisições](https://github.com/nKikito/Como_usar_o_PyNgrok?tab=readme-ov-file#ver-requisi%C3%A7%C3%B5es)
