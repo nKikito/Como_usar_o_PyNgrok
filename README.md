@@ -1,6 +1,20 @@
 # Como usar o PyNgrok
 
 ## Índices
+- [Introdução](https://github.com/nKikito/Como_usar_o_PyNgrok?tab=readme-ov-file#introdu%C3%A7%C3%A3o)
+- [Baixando o pyngrok](https://github.com/nKikito/Como_usar_o_PyNgrok?tab=readme-ov-file#baixando-o-pyngrok)
+- [Copiando o token](https://github.com/nKikito/Como_usar_o_PyNgrok?tab=readme-ov-file#copiando-o-token)
+- [Método 1: Usar o CMD (Prompt de comando)](https://github.com/nKikito/Como_usar_o_PyNgrok?tab=readme-ov-file#m%C3%A9todo-1-usar-o-cmd-prompt-de-comando)
+- [Método 2: Usar um arquivo python](https://github.com/nKikito/Como_usar_o_PyNgrok?tab=readme-ov-file#m%C3%A9todo-2-usar-um-arquivo-python)
+- [Observações](https://github.com/nKikito/Como_usar_o_PyNgrok/edit/main/README.md#observa%C3%A7%C3%B5es)
+    1. [Django](https://github.com/nKikito/Como_usar_o_PyNgrok?tab=readme-ov-file#django)
+    2. [XAMPP](https://github.com/nKikito/Como_usar_o_PyNgrok?tab=readme-ov-file#xampp)
+    3. [Ver requisições](https://github.com/nKikito/Como_usar_o_PyNgrok?tab=readme-ov-file#ver-requisi%C3%A7%C3%B5es)
+
+
+
+
+
 
 ## Introdução
 Este repositório mostra como colocar a sua aplicação no 'ar' com o pyngrok. O pyngrok é uma biblioteca python que facilita o uso da ferramenta ngrok, já que com a biblioteca não é necessário baixar o ngrok, só ter o seu _auth token_. O ngrok é uma ferramenta "transforma" o seu computador em um servidor e te dá um link temporário onde você e outras pessoas conseguem usar a sua aplicação através de algum navegador.
