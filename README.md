@@ -35,4 +35,23 @@ try:
 except KeyboardInterrupt:
     print("Fechando a comunicação")
 ```
-seu_auth_token é o token que você copiou do site da ngrok, a porta é a porta onde a sua aplicação está rodando Ex: 8000, protocolo_comunicacao
+seu_auth_token é o token que você copiou do site da ngrok, a porta é a porta onde a sua aplicação está rodando Ex: 8000, protocolo_comunicacao é o protocolo de comunicação onde a sua aplicação está rodando Ex: http. Se você estiver utilizando o VsCode terá que selecionar o ambiente virtual que está utilizando para conseguir rodar o código, para isso use o atalho `Ctrl+Shift+P` e pesquise por **Python: Create Environment** e selecione essa opção, depois clique em **Venv** e **Enter interpreter path...** , após isso clique em **Find** e procure pelo seu ambiente virtual, após encotrá-lo vá para **Scripts** e selecione o arquivo, que está dentro de Scripts, que se chama **python** , então é só rodar o código, se não tiver como rodar o código você pode utilizar o atalho `Ctrl+Shift+'` para abrir um terminal, depois é só escrever: `python .\nome_arquivo.py` (troque o nome_arquivo pelo nome que você colocou no seu arquivo .py). Você também pode utilizar o CMD para rodar o código, pelo CMD vá até a pasta onde está o arquivo .py e execute o comando: `python .\nome_arquivo.py` (troque o nome_arquivo pelo nome que você colocou no seu arquivo .py). Depois de copiar a url você pode colocar em algum navegador e utilizar a sua aplicação.
+
+## Observações
+- ### Django
+    Você deve rodar o `python manage.py` runserver para que o link da ngrok funcione.
+    Coloque o seguinte código no seu arquivo **settings.py** para que 
+os formulários que tenham o método POST não sejam proibidos 
+```python
+ALLOWED_HOSTS.append("*") 
+CSRF_TRUSTED_ORIGINS = [ 
+url gerada pelo ngrok 
+]
+```
+
+- ### XAMPP
+    Quando você inserir a url no navegador irá aparecer /dashboard/, 
+    no lugar de dashboard coloque o nome da pasta/arquivo que você deseja utilizar. 
+
+- ### Ver requisições
+    Quando a sua aplicação já estiver rodando pelo ngrok, você consegue ver as requisições através do [localhost:4040/inspect/http](http://localhost:4040/inspect/http).
